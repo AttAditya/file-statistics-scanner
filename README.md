@@ -1,6 +1,6 @@
 # File Statistics Scanner
 
-[![Demo](https://img.youtube.com/vi/I9h9QZ44rgo/hqdefault.jpg)](https://www.youtube.com/watch?v=I9h9QZ44rgo)
+[Click to watch Demo: ![Demo](https://img.youtube.com/vi/I9h9QZ44rgo/hqdefault.jpg)](https://www.youtube.com/watch?v=I9h9QZ44rgo)
 <!-- <video src="demo.mp4" controls autoplay loop muted width="100%"></video> -->
 
 A Python script to scan a directory for files with specified extensions, ignoring selected folders, and count:
