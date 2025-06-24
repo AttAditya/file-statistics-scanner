@@ -1,5 +1,7 @@
 # File Statistics Scanner
 
+<video src="demo.mp4" controls autoplay loop muted width="100%"></video>
+
 A Python script to scan a directory for files with specified extensions, ignoring selected folders, and count:
 -	Number of matching files
 -	Total lines across all matching files
@@ -11,10 +13,17 @@ A Python script to scan a directory for files with specified extensions, ignorin
 3. Recursively scans the current working directory using simple BFS traversal.
 4. Displays statistics for each extension provided.
 
+## Installation
+
+### Using pipx
+```sh
+pipx install adityas-fsscan
+```
+
 ## Example Run
 
-```
-$ python main.py
+```bash
+$ fsscan
 Current working directory: /Users/attaditya/projects/code-analyzer
 Enter file extensions to scan: 
 Please avoid leading dots (e.g., write 'py' instead of '.py').
@@ -44,12 +53,6 @@ Data for js:
 ├── main.py                # Entry point
 ├── count_data.py          # Contains CountData dataclass
 ├── file_scanner.py        # scan_files() implementation
-```
-
-## Run It
-
-```sh
-python main.py
 ```
 
 ## Requirements

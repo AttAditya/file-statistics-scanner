@@ -1,7 +1,7 @@
 from os import listdir
 from os.path import isfile
 
-from count_data import CountData
+from src.count_data import CountData
 
 def scan_files(
   path: str,

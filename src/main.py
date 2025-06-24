@@ -1,7 +1,7 @@
 from os import getcwd
 
-from count_data import CountData
-from file_scanner import scan_files
+from src.count_data import CountData
+from src.file_scanner import scan_files
 
 def continuous_input() -> list[str]:
   inputs: list[str] = []
